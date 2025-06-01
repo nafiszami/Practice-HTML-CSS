@@ -1,0 +1,160 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: linear-gradient(#B8E7FA, #E6E6FA);
+
+}
+
+.navbar {
+    background-color: #FFFFFF;
+
+    padding=0px;
+    max- width: 1440px;
+    max - height: 112px;
+    margin=0px;
+
+}
+
+#navbar-container {
+
+    margin: 24px auto;
+    max-width: 1260px;
+    max-height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 18px 17px;
+    width: 248.74px;
+    height: 64px;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: linear-gradient(#FFA500, #FFD447);
+    box-shadow: 20px;
+    box-shadow:10px 0px 8px #888888;
+}
+
+.connect {
+    width: 1260px;
+    height: 592px;
+    margin: 100px auto;
+    background-color: #E6EDF9;
+    border-radius: 16px;
+    padding: 60px 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.connect-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.discuss {
+    width: 1260px;
+    height: 656px;
+    margin: 100px auto;
+    background-color: #E6EDF9;
+    border-radius: 16px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.discuss-text {
+    text-align: center;
+}
+
+.discuss-content {
+    background-color: #E6EDF9;
+    max-height: 484px;
+    max-width: 1260px;
+    margin-top: 48px;
+    padding: 0px 48px;
+    display: flex;
+
+    gap: 30px;
+
+}
+
+.discuss-content-text {
+    margin: 107px 30px;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+
+}
+.inspiration {
+    width: 1100px;
+    height: 792px;
+    margin: 100px auto;
+    border-radius: 16px;
+
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-text{
+    text-align: center;
+}
+.inspiration-video{
+    margin: 0px;
+    width:1100px;
+    height: 620px;
+    padding: 32px;
+    text-align: center;
+    border-radius: 16px;
+    
+}
+
+.target{
+     margin: 100px auto;
+    width:1260px;
+    height: 468px;
+    text-align: center;
+    
+}
+.target-text{
+    text-align: center;
+}
+.target-card{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card{
+    width: 364px;
+    height: 244px;
+    padding: 20px;
+    background-image: linear-gradient(#E6EDF9,#9DE5FF);
+    border-radius: 16px;
+    box-shadow: 10px 10px 8px #cfd3d5 ;
+}
+.footer{
+    display: flex;
+    padding : 10px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+.icons {
+    display: flex;
+    
+    justify-content: space-around;
+    gap :30px;
+}
